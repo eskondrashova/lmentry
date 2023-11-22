@@ -3,7 +3,7 @@ import re
 from lmentry.scorers.scorer import LMentryScorer, swap_substrings, the_number_regex
 
 
-class BiggerNumberScorer(LMentryScorer):
+class BiggerNumberRuScorer(LMentryScorer):
 
     def __init__(self):
         super().__init__()
